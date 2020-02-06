@@ -1,0 +1,13 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.top-bar {
+  width: 100vw;
+}
+
+.page {
+  width: 100vw;
+  min-height: 100vh;
+}

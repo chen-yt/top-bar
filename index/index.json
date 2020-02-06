@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "top-bar": "../top-bar/index"
+  },
+  "enablePullDownRefresh": false,
+  "disableScroll": true
+}

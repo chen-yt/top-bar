@@ -1,0 +1,23 @@
+<scroll-view
+  class="root"
+  scroll-y
+  scroll-with-animation
+  scroll-into-view="{{curView}}"
+  bindscroll="scroll"
+  bindtouchend="touchEnd"
+>
+  <view
+    id="top-bar"
+    class="top-bar"
+  >
+    <slot name="top-bar"></slot>
+  </view>
+
+  <view
+    id="page"
+    class="page"
+  >
+    <slot name="page"></slot>
+  </view>
+
+</scroll-view>
